@@ -3,13 +3,12 @@ services:
         build:
             context: ./
             dockerfile: Dockerfile
-            args:
-                WWWGROUP: '${WWWGROUP}'
+
         image: quic-tube-nuxt
         extra_hosts:
             - 'host.docker.internal:host-gateway'
         ports:
-            - '${NUXT_PORT:-3000}:3000'
+            - '${NUXT_PORT:-3000}:80'
 
         volumes:
             - '.:/usr/src/QuicTube/'
