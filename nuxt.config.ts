@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  extends: [process.env.NUXT_UI_PRO_PATH || '@nuxt/ui-pro'],
+  extends: [process.env.NUXT_UI__PATH || '@nuxt/ui-pro'],
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',

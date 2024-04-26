@@ -51,6 +51,9 @@ logos:
   icons:
     - i-simple-icons-amazonaws
     - i-simple-icons-github
+    - i-simple-icons-python
+    - i-simple-icons-webrtc
+    - i-simple-icons-stripe
     - i-simple-icons-nuxtdotjs
     - i-simple-icons-laravel
 faq:

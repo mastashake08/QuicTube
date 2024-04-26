@@ -4,7 +4,8 @@ const links = [{
   children: [{
     label: 'Help center'
   }, {
-    label: 'Docs'
+    label: 'Docs',
+    to: '/docs'
   }, {
     label: 'Roadmap'
   }, {
@@ -25,9 +26,8 @@ const links = [{
     label: 'Pricing',
     to: '/pricing'
   }, {
-    label: 'Careers'
-  }, {
-    label: 'Blog'
+    label: 'Blog',
+    to: '/blog'
   }]
 }]
 
@@ -89,7 +89,7 @@ function onSubmit() {
 
     <template #left>
       <p class="text-gray-500 dark:text-gray-400 text-sm">
-        Copyright © {{ new Date().getFullYear() }}. All rights reserved.
+        Copyright QuicTube © {{ new Date().getFullYear() }}. All rights reserved.
       </p>
     </template>
 
@@ -97,10 +97,46 @@ function onSubmit() {
       <UColorModeButton size="sm" />
 
       <UButton
-        to="https://github.com/nuxt-ui-pro/saas"
+        to="https://github.com/mastashake08/QuicTube"
         target="_blank"
         icon="i-simple-icons-github"
         aria-label="GitHub"
+        color="gray"
+        variant="ghost"
+      />
+
+      <UButton
+        to="https://twitter.com/jyroneparker"
+        target="_blank"
+        icon="i-simple-icons-twitter"
+        aria-label="X"
+        color="gray"
+        variant="ghost"
+      />
+
+      <UButton
+        to="https://instagram.com/mastashake08"
+        target="_blank"
+        icon="i-simple-icons-instagram"
+        aria-label="Instagram"
+        color="gray"
+        variant="ghost"
+      />
+
+      <UButton
+        to="https://jyroneparker.com"
+        target="_blank"
+        icon="i-simple-icons-wordpress"
+        aria-label="Personal Website"
+        color="gray"
+        variant="ghost"
+      />
+
+      <UButton
+        to="https://cashapp.me/$mastashake08"
+        target="_blank"
+        icon="i-simple-icons-cashapp"
+        aria-label="Cash App"
         color="gray"
         variant="ghost"
       />

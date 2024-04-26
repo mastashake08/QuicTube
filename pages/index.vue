@@ -1,5 +1,15 @@
 <script setup lang="ts">
-import VideoPlaceholder from '~/components/MediaPlaceholder.vue';
+if(process.client) {
+  const videos = document.getElementsByTagName('video');
+  for (const video of videos) {
+      video.addEventListener("timeupdate", function() {
+        if (video.currentTime >= 3.5) {
+          video.currentTime = 0; // change time index here
+        }
+      }, false);
+  }
+}
+
 
 const { data: page } = await useAsyncData('index', () => queryContent('/').findOne())
 if (!page.value) {
