@@ -1,12 +1,12 @@
-title: Nuxt UI Pro - SaaS template
-description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
-navigation: false
+title: QuicTube- Distributed Media Over WebTransport
+description: "A completely distributed multimedia web application."
+navigation: true
 hero:
-  title: Build your SaaS in seconds
-  description: This template demonstrates most of Nuxt UI Pro's components. It's a great starting point to build your own SaaS.
+  title: QuicTube
+  description: The future of media is distributed.
   headline:
-    label: Made with Nuxt UI Pro
-    to: https://ui.nuxt.com/pro
+    label: Created and maintained by Jyrone Parker
+    to: https://jyroneparker.com
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
     - label: Get started
@@ -15,26 +15,27 @@ hero:
       color: black
       icon: i-heroicons-arrow-right-20-solid
       trailing: true
-    - label: Use this template
+    - label: May The Source Be With You
       icon: i-simple-icons-github
       size: xl
       color: gray
-      to: https://github.com/nuxt-ui-pro/saas
+      to: https://github.com/mastashake08/QuickTube
       target: _blank
 sections:
-  - title: The power of our service
-    description: Aliqua labore laboris fugiat. Reprehenderit exercitation eu commodo. Officia nostrud sit et aliqua ea ex sunt minim incididunt sunt.
+  - title: Let's get back to the web is supposed to be!
+    description: QuicTube is my first attempt of building a decentralized web. Own your data, stream your data, profit from your data.
     id: features
     align: left
+    video: https://videos.pexels.com/video-files/6585543/6585543-sd_640_360_30fps.mp4
     features:
-      - name: Easy to use
-        description: Id laborum laboris duis nostrud excepteur ut velit.
+      - name: Completely Decentralized
+        description: All media is servered from the client. QuicTube does not store nor keep knowledge of your media.
         icon: i-heroicons-cog
-      - name: Reliable
-        description: Magna Lorem ex cillum fugiat ad enim aute irure sit duis minim.
+      - name: Profitable
+        description: You can decide the price of your media. 
         icon: i-heroicons-check
       - name: Secure
-        description: Proident nostrud excepteur sint ut culpa consectetur aute adipisicing.
+        description: Powered over HTTP/3 and the QUIC protocol these sessions are very secure.
         icon: i-heroicons-lock-closed
     links:
       - label: Explore components
@@ -44,22 +45,23 @@ sections:
         trailing: true
         size: md
         class: ml-8
-  - title: The speed of our service
-    description: Cillum sint enim excepteur ut deserunt qui nisi in deserunt in. Deserunt aliquip quis aliquip eu quis ex velit velit nostrud sit.
+  - title: How fast is fast enough?
+    video: https://videos.pexels.com/video-files/8552830/8552830-uhd_4096_2160_30fps.mp4
+    description: QuicTube will be the quickest (hehe) and most efficient media experience of your life.
     align: right
     features:
       - name: Fast
-        description: Qui reprehenderit nostrud dolore nisi ad fugiat labore eiusmod.
+        description: QuicTube doesn't store nor track
         icon: i-heroicons-rocket-launch
       - name: Affordable
-        description: Reprehenderit fugiat elit in do ipsum ut pariatur.
+        description: Free forever to list and play media. In fact you can earn income! 
         icon: i-heroicons-currency-dollar
       - name: Scalable
-        description: Lorem deserunt et eiusmod. Ea in consectetur minim officia.
+        description: Look homies I'm not paying for storage this is decentralized and the code footprint is smaller than Donald Trump's chances of beating this case and being president! :D This mesh network grows as more content creators join the network and host!
         icon: i-heroicons-chart-bar
     links:
       - label: Learn more
-        to: /pro/guide/content
+        to: /docs
         color: gray
         icon: i-heroicons-arrow-right-20-solid
         trailing: true
@@ -67,37 +69,37 @@ sections:
         class: ml-8
 features:
   title: Why choose our service?
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: I think y'all forgot what the web and Internet was supposed to be! We should not only own our data but we should profit from it if we so choose! Are you a music artist? You should be actually earning scrilla for your streams/direct purchases! QuicTube is my first application in a suite of HTTP/3 apps I am writing to decentralize the web utilizing the technologies that we currently have.
   items:
     - title: Easy to use
-      description: Id laborum laboris duis nostrud excepteur ut velit nulla magna Lorem proident non.
+      description: Literally just select the files you want available for the world to see, set some metadata and leave. Seriously it is idiot proof......hopefully.
       icon: i-heroicons-cog
     - title: Reliable
-      description: Magna Lorem ex cillum fugiat ad enim aute irure sit duis minim.
+      description: WebTransport streams baby!!!
       icon: i-heroicons-check
     - title: Secure
-      description: Proident nostrud excepteur sint ut culpa consectetur aute adipisicing non anim ullamco.
+      description: WebTransport streams baby!!!
       icon: i-heroicons-lock-closed
     - title: Fast
-      description: Qui reprehenderit nostrud dolore nisi ad fugiat labore eiusmod sint aliquip nisi voluptate.
+      description: WebTransport streams baby!!!
       icon: i-heroicons-rocket-launch
-    - title: Affordable
-      description: Reprehenderit fugiat elit in do ipsum ut pariatur.
+    - title: Sharing the wealth!
+      description: My overhead is low I know I will be str8. As a music artist I want to bring the power back to the creators. Why are the record and movie studios keeping all of the profits when we as the creators are the profit drivers?!
       icon: i-heroicons-currency-dollar
     - title: Scalable
-      description: Lorem deserunt et eiusmod. Ea in consectetur minim officia ullamco enim deserunt est.
+      description: The more entities join the topology the more stable and faster the system becomes!
       icon: i-heroicons-chart-bar
 testimonials:
   headline: Testimonials
-  title: What our customers are saying.
-  description: Proident sunt exercitation minim laborum enim laboris labore esse.
+  title: What our users are saying.
+  description: Best to let the people speak!
   items:
-    - quote: Nostrud tempor sunt fugiat. Dolor in sint dolore labore non occaecat adipisicing Lorem labore ullamco enim excepteur. In fugiat Lorem sit velit id veniam esse eiusmod non ea voluptate cupidatat reprehenderit ullamco dolore. Mollit laborum occaecat aliquip.
+    - quote: The Internet has become a playground of corporations holding corners of power. Email was originally meant to be ran at home, not through central servers. The whole concept of decentralization was a cornerstore of the Internet and its protocols. Media takes up the majority of our data consumption. Why do we let others monetize on our value when we can pofit from ourselves?
       author:
-        name: Rose Roberson
-        description: CEO at Company
+        name: Jyrone Parker
+        description: Creator of QuicTube
         avatar:
-          src: https://i.pravatar.cc/120?img=1
+          src: https://2.gravatar.com/avatar/878c27e5c8016259b8fd1524ad2f04a7b1795516a7cdea5f087fdfcc1dfd0124?size=120
           loading: lazy
     - quote: Eiusmod dolor aute ut nulla pariatur officia consequat aute amet exercitation.
       author:
@@ -135,10 +137,10 @@ testimonials:
           src: https://i.pravatar.cc/120?img=9
           loading: lazy
 cta:
-  title: Get started today
-  description: Nisi mollit id aliquip sunt est laborum sit sit.
+  title: Want the full experience while supporting this project?
+  description: Get highest priority and stream quality to all media in the ecosystem.
   links:
-    - label: Buy now
+    - label: Join QuicTube+
       size: xl
       color: black
       to: /pricing

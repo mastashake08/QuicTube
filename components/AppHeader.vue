@@ -18,8 +18,8 @@ const links = [{
 <template>
   <UHeader :links="links">
     <template #logo>
-      Nuxt UI Pro <UBadge
-        label="SaaS"
+      QuicTube <UBadge
+        label="Powered By QUIC"
         variant="subtle"
         class="mb-0.5"
       />

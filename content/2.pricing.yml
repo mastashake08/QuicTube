@@ -6,80 +6,61 @@ hero:
   description: Our plans are designed to meet the requirements of both beginners and players. Get the right plan that suits you.
   align: center
 plans:
-  - title: Basic
-    description: A basic plan for individuals.
+  - title: Free
+    description: Forever Free Plan
     price:
-      month: $9.9
-      year: $99.9
+      month: $0.00
+      year: $0.00
     align: top
     button:
       label: Get Started
       color: white
     features:
-      - 1 GB Storage
-      - 1 Email Account
-      - 1 Domain
-      - 1 Website
-      - 1 Database
-      - 1 SSL Certificate
-      - 1 Support Ticket
-  - title: Standard
-    description: A standard plan for small teams.
+      - Upload Videos
+      - Live Stream
+      - Earn Ad Income
+  - title: QuicTube+
+    description: Ad-free experience
     price:
-      month: $19.9
-      year: $199.9
+      month: $1.99
+      year: $19.99
     highlight: true
     align: top
     button:
       label: Get Started
       color: black
     features:
-      - 10 GB Storage
-      - 10 Email Accounts
-      - 10 Domains
-      - 10 Websites
-      - 10 Databases
-      - 10 SSL Certificates
-      - 10 Support Tickets
-  - title: Premium
+      - All features from Free tier
+      - Ad Free
+      - Highest stream priority
+      - Access to over 5000 INTERNATIONAL CHANNELS
+  - title: QuicTube Ultimate
     description: A premium plan for large teams.
     price:
-      month: $29.9
-      year: $299.9
+      month: $29.99
+      year: $299.99
     align: top
     button:
       label: Get Started
       color: white
     features:
-      - 100 GB Storage
-      - 100 Email Accounts
-      - 100 Domains
-      - 100 Websites
-      - 100 Databases
-      - 100 SSL Certificates
-      - 100 Support Tickets
+      - All features of QuicTube+
+      - 5 TB of DVR 
 logos:
-  title: Trusted by the world's best
+  title: Built with the following technologies
   icons:
     - i-simple-icons-amazonaws
-    - i-simple-icons-heroku
-    - i-simple-icons-netlify
-    - i-simple-icons-vercel
-    - i-simple-icons-cloudflare
+    - i-simple-icons-github
+    - i-simple-icons-nuxtdotjs
+    - i-simple-icons-laravel
 faq:
   title: Frequently asked questions
-  description: Culpa consectetur dolor pariatur commodo aliqua amet tempor nisi enim deserunt elit cillum.
+  description: You have questions? I have answers!
   items:
     - label: Is this a secure service?
-      content: Qui sunt nostrud aliquip reprehenderit enim proident veniam magna aliquip velit occaecat eiusmod nisi deserunt sunt.
+      content: Absolutely this is built on the WebTransport protocol which is built on top of QUIC. The encryption is done on the transport layer!
       defaultOpen: true
     - label: How can I cancel my subscription?
-      content: Consectetur irure Lorem nostrud adipisicing aliqua mollit Lorem sit officia magna eiusmod cupidatat.
-    - label: How does the free trial work?
-      content: Quis officia commodo magna eu qui aliquip duis.
-    - label: Can I switch plans later?
-      content: Dolore irure ullamco dolore eu occaecat magna eiusmod dolor aliqua culpa labore.
-    - label: Do you offer refunds?
-      content: Duis mollit nostrud voluptate mollit Lorem dolore commodo veniam incididunt eiusmod.
-    - label: Do you offer support?
-      content: Aliqua sit nisi consequat pariatur Lorem minim irure qui.
+      content: Go to your user settings and clock subscription!
+    - label: If QuicTube doesn't save files where are they?
+      content: On your device this is distributed baaaaby!!!

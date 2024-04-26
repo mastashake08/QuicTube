@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import VideoPlaceholder from '~/components/MediaPlaceholder.vue';
+
 const { data: page } = await useAsyncData('index', () => queryContent('/').findOne())
 if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
@@ -53,7 +55,9 @@ useSeoMeta({
     </ULandingHero>
 
     <ULandingSection class="!pt-0">
-      <ImagePlaceholder />
+      <MediaPlaceholder>
+          <video src="https://videos.pexels.com/video-files/4911931/4911931-uhd_3840_2160_24fps.mp4" autoplay loop="true" width="3840" height="1440" muted />
+      </MediaPlaceholder>
     </ULandingSection>
 
     <ULandingSection
@@ -64,7 +68,9 @@ useSeoMeta({
       :align="section.align"
       :features="section.features"
     >
-      <ImagePlaceholder />
+    <MediaPlaceholder>
+        <video :src="section.video" autoplay loop="true" width="3840" height="1440" muted />
+      </MediaPlaceholder>
     </ULandingSection>
 
     <ULandingSection

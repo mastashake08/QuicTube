@@ -16,17 +16,14 @@ const links = [{
     label: 'Affiliates'
   }, {
     label: 'Portal'
-  }, {
-    label: 'Jobs'
-  }, {
-    label: 'Sponsors'
   }]
 }, {
   label: 'Company',
   children: [{
     label: 'About'
   }, {
-    label: 'Pricing'
+    label: 'Pricing',
+    to: '/pricing'
   }, {
     label: 'Careers'
   }, {
