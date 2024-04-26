@@ -19,7 +19,7 @@ const links = [{
     label: 'Portal'
   }]
 }, {
-  label: 'Company',
+  label: 'Product',
   children: [{
     label: 'About'
   }, {
@@ -54,35 +54,11 @@ function onSubmit() {
   <UFooter>
     <template #top>
       <UFooterColumns :links="links">
+        <ULandingSection
+          title="The tech stack I used!"
+          description="All open source of course" />
         <template #right>
-          <form @submit.prevent="onSubmit">
-            <UFormGroup
-              label="Subscribe to our newsletter"
-              :ui="{ container: 'mt-3' }"
-            >
-              <UInput
-                v-model="email"
-                type="email"
-                placeholder="Enter your email"
-                :ui="{ icon: { trailing: { pointer: '' } } }"
-                required
-                size="xl"
-                autocomplete="off"
-                class="max-w-sm"
-                input-class="rounded-full"
-              >
-                <template #trailing>
-                  <UButton
-                    type="submit"
-                    size="xs"
-                    color="primary"
-                    :label="loading ? 'Subscribing' : 'Subscribe'"
-                    :loading="loading"
-                  />
-                </template>
-              </UInput>
-            </UFormGroup>
-          </form>
+          
         </template>
       </UFooterColumns>
     </template>

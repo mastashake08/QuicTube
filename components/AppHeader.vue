@@ -42,6 +42,7 @@ const links = [{
     </template>
 
     <template #panel>
+      <h2>The tech stack I used!</h2>
       <UNavigationTree
         :links="mapContentNavigation(navigation)"
         default-open
