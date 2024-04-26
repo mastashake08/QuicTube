@@ -1,3 +1,4 @@
+version: 1.0.2
 services:
     quic-tube.test:
         build:
@@ -8,7 +9,7 @@ services:
         extra_hosts:
             - 'host.docker.internal:host-gateway'
         ports:
-            - '${NUXT_PORT:-3000}:80'
+            - '${NUXT_PORT:-3000}:3000'
 
         volumes:
             - '.:/usr/src/QuicTube/'
