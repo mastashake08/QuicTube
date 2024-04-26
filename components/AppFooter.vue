@@ -108,12 +108,21 @@ function onSubmit() {
       <UButton
         to="https://twitter.com/jyroneparker"
         target="_blank"
-        icon="i-simple-icons-twitter"
+        icon="i-simple-icons-x"
         aria-label="X"
         color="gray"
         variant="ghost"
       />
 
+      <UButton
+        to="https://open.spotify.com/artist/1nQuAaO8h98RiBdzfMhlSu?si=7XFtqiF_ShurTO-2r0Xy_Q"
+        target="_blank"
+        icon="i-simple-icons-spotify"
+        aria-label="X"
+        color="gray"
+        variant="ghost"
+      />
+      
       <UButton
         to="https://instagram.com/mastashake08"
         target="_blank"

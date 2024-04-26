@@ -1,0 +1,20 @@
+services:
+    quic-tube.test:
+        build:
+            context: ./
+            dockerfile: Dockerfile
+            args:
+                WWWGROUP: '${WWWGROUP}'
+        image: quic-tube-nuxt
+        extra_hosts:
+            - 'host.docker.internal:host-gateway'
+        ports:
+            - '${NUXT_PORT:-3000}:3000'
+
+        volumes:
+            - '.:/usr/src/QuicTube/'
+        networks:
+            - quic-tube
+networks:
+  quic-tube:
+        driver: bridge
