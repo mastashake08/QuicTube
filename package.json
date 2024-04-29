@@ -30,6 +30,7 @@
     "@nuxt/eslint": "^0.3.9",
     "@nuxthq/studio": "^1.0.13",
     "@nuxtjs/sitemap": "^5.1.4",
+    "@unlok-co/nuxt-stripe": "^3.0.0",
     "eslint": "^9.1.1",
     "vue-tsc": "^2.0.14"
   }

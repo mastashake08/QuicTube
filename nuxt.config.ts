@@ -11,7 +11,8 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     'nuxt-og-image',
     '@nuxthq/studio',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@unlok-co/nuxt-stripe'
   ],
   hooks: {
     // Define `@nuxt/ui` components as global to use them in `.md` (feel free to add those you need)

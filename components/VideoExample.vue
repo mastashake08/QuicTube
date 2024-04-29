@@ -17,15 +17,32 @@ export default {
   },
   async mounted () {
     this.$player =  new OpenPlayerJS('player', {
+            controls: {
+              left: ['play', 'time', 'volume'],
+              middle: ['progress'], // Semantically speaking, progress bar is in the middle
+              right: ['levels', 'captions', 'settings', 'fullscreen'],
+          },
             showLoaderOnInit: false,
             pauseOthers: false,
         })
     await this.$player.init()
 
+
     this.constraints = await navigator.mediaDevices.getSupportedConstraints()
     console.log(this.constraints)
   },
   methods: {
+    sourceOpen() {
+      const sourceBuffer = this.mediaSource.addSourceBuffer('video/webm;codecs=vp9')
+
+        sourceBuffer.addEventListener("updateend", () => {
+          this.mediaSource.endOfStream();
+          this.$player.play();
+          console.log(this.mediaSource.readyState); // ended
+        });
+        sourceBuffer.appendBuffer(this.stream);
+
+    },
     async getMedia() {
       try {
         this.stream = await navigator.mediaDevices.getUserMedia({
@@ -38,8 +55,10 @@ export default {
             width: 1280,
             height: 720
         }});
-        this.$player.getElement().srcObj = this.stream
+        this.mediaSource.addEventListener("sourceopen", this.sourceOpen);
 
+        this.$player.src = URL.createObjectURL(this.mediaSource)
+        this.$player.load();
 
 
        //
