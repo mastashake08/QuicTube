@@ -15,6 +15,10 @@ services:
             - '.:/usr/src/QuicTube/'
         networks:
             - quic-tube
+    quictube-wt.test:
+      image: mastashake08/quictube-wt
+      networks:
+         - quic-tube
 networks:
   quic-tube:
         driver: bridge
