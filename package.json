@@ -19,8 +19,12 @@
     "@nuxt/image": "^1.6.0",
     "@nuxt/ui-pro": "^1.1.0",
     "@vueuse/nuxt": "^10.9.0",
+    "dashjs": "^4.7.4",
+    "flv.js": "^1.6.2",
+    "hls.js": "^1.5.8",
     "nuxt": "^3.11.2",
-    "nuxt-og-image": "^2.2.4"
+    "nuxt-og-image": "^2.2.4",
+    "openplayerjs": "^2.14.3"
   },
   "devDependencies": {
     "@nuxt/eslint": "^0.3.9",
