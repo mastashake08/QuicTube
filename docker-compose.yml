@@ -15,14 +15,14 @@ services:
             - '.:/usr/src/QuicTube/'
         networks:
             - quic-tube
-        depends_on:
-            - quictube-wt.test
-    quictube-wt.test:
-      image: mastashake08/quictube-wt
-      ports: 
-        - '4433:4433'
-      networks:
-         - quic-tube
+        # depends_on:
+        #     - wt
+    # wt:
+    #   image: mastashake08/quictube-wt
+    #   ports:
+    #     - '4433:4433'
+    #   networks:
+    #      - quic-tube
 networks:
   quic-tube:
         driver: bridge
