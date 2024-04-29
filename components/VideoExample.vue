@@ -10,7 +10,7 @@ export default {
     return {
       stream: {},
       constraints: {},
-      mediaSource: new MediaSource(),
+      mediaSource: {},
 
 
     }
@@ -33,7 +33,7 @@ export default {
   },
   methods: {
     sourceOpen() {
-      const sourceBuffer = this.mediaSource.addSourceBuffer('video/webm;codecs=vp9')
+      const sourceBuffer = this.mediaSource
 
         sourceBuffer.addEventListener("updateend", () => {
           this.mediaSource.endOfStream();
@@ -55,10 +55,11 @@ export default {
             width: 1280,
             height: 720
         }});
-        this.mediaSource.addEventListener("sourceopen", this.sourceOpen);
+        this.mediaSource = new MediaSource(this.stream)
 
         this.$player.src = URL.createObjectURL(this.mediaSource)
         this.$player.load();
+        this.$player.play();
 
 
        //
