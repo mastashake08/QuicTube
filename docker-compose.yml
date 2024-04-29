@@ -17,6 +17,8 @@ services:
             - quic-tube
     quictube-wt.test:
       image: mastashake08/quictube-wt
+      ports: 
+        - '4433:4433'
       networks:
          - quic-tube
 networks:
