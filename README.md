@@ -1,17 +1,12 @@
 ![nuxt-ui-saas-social-card](https://github.com/nuxt-ui-pro/saas/assets/739984/50bf4ddd-c4d5-47e5-a09e-0f699513dfb5)
 
-# Nuxt UI Pro - SaaS template
-
-[![Nuxt UI Pro](https://img.shields.io/badge/Made%20with-Nuxt%20UI%20Pro-00DC82?logo=nuxt.js&labelColor=020420)](https://ui.nuxt.com/pro)
-
-- [Live demo](https://saas-template.nuxt.dev/)
-- [Play on Stackblitz](https://stackblitz.com/github/nuxt-ui-pro/saas)
-- [Documentation](https://ui.nuxt.com/pro/getting-started)
+# QuicTube - A decentralized video streaming progressive web application built on top of HTTP/3 technologies. 
+QuicTube is a progressive web application that utilizes WebTransport and HTTP/3 to build a truly decentralized video streaming service. There is no central database and no central storage of video files. Instead it uses the [WebTransport API](https://developer.mozilla.org/en-US/docs/Web/API/WebTransport) to connect to a capatible QuicTube Server. 
 
 ## Quick Start
 
 ```bash [Terminal]
-npx nuxi init -t github:nuxt-ui-pro/saas
+git clone https://github.com/mastashake08/QuicTube.git
 ```
 
 ## Setup
@@ -82,42 +77,3 @@ yarn preview
 
 # bun
 bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-
-## Nuxt Studio integration
-
-Add `@nuxthq/studio` dependency to your package.json:
-
-```bash
-# npm
-npm install --save-dev @nuxthq/studio
-
-# pnpm
-pnpm add -D @nuxthq/studio
-
-# yarn
-yarn add -D @nuxthq/studio
-
-# bun
-bun add -d @nuxthq/studio
-```
-
-Add this module to your `nuxt.config.ts`:
-
-```ts
-export default defineNuxtConfig({
-  ...
-  modules: [
-    ...
-    '@nuxthq/studio'
-  ]
-})
-```
-
-Read more on [Nuxt Studio docs](https://nuxt.studio/docs/projects/setup).
-
-## Renovate integration
-
-Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.

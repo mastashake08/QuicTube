@@ -1,0 +1,69 @@
+title: Monetize
+description: Monetize your video content from the beginning.
+navigation.icon: i-heroicons-dollar
+hero:
+  title: A plan for every need
+  description: Our plans are designed to meet the requirements of both beginners and players. Get the right plan that suits you.
+  align: center
+plans:
+  - title: Free
+    description: Forever Free Plan
+    price:
+      month: $0.00
+      year: $0.00
+    align: top
+    button:
+      label: Get Started
+      color: white
+    features:
+      - Upload Videos
+      - Live Stream
+      - Earn Ad Income
+  - title: QuicTube+
+    description: Ad-free experience
+    price:
+      month: $1.99
+      year: $19.99
+    highlight: true
+    align: top
+    button:
+      label: Get Started
+      color: black
+    features:
+      - All features from Free tier
+      - Ad Free
+      - Highest stream priority
+      - Access to over 5000 INTERNATIONAL CHANNELS
+  - title: QuicTube Ultimate
+    description: A premium plan for large teams.
+    price:
+      month: $29.99
+      year: $299.99
+    align: top
+    button:
+      label: Get Started
+      color: white
+    features:
+      - All features of QuicTube+
+      - 5 TB of DVR 
+logos:
+  title: Built with the following technologies
+  icons:
+    - i-simple-icons-amazonaws
+    - i-simple-icons-github
+    - i-simple-icons-python
+    - i-simple-icons-webrtc
+    - i-simple-icons-stripe
+    - i-simple-icons-nuxtdotjs
+    - i-simple-icons-laravel
+faq:
+  title: Frequently asked questions
+  description: You have questions? I have answers!
+  items:
+    - label: Is this a secure service?
+      content: Absolutely this is built on the WebTransport protocol which is built on top of QUIC. The encryption is done on the transport layer!
+      defaultOpen: true
+    - label: How can I cancel my subscription?
+      content: Go to your user settings and clock subscription!
+    - label: If QuicTube doesn't save files where are they?
+      content: On your device this is distributed baaaaby!!!

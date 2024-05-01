@@ -17,8 +17,8 @@
 			],
 			"settings": {}
 		}
-	}
-	//"forwardPorts": []
+	},
+	"forwardPorts": [4433]
 	// "runServices": [],
 	// "shutdownAction": "none",
 }
